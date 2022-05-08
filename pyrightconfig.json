@@ -1,0 +1,41 @@
+{
+    "include": [
+        "hyperstructor"
+    ],
+
+    "exclude": [
+        "hyperstructor/test",
+        "hyperstructor/data",
+        "**/__pycache__",
+        "build",
+	"docs",
+	"examples",
+	".eggs",
+	".git",
+	".github",
+	"versioneer.py"
+
+    ],
+    "ignore": [
+        "hyperstructor/test",
+        "hyperstructor/data",
+        "**/__pycache__",
+        "build",
+	"docs",
+	"examples",
+	".eggs",
+	".git",
+	".github",
+	"versioneer.py"
+
+    ],
+
+
+    "venvPath": "/Users/jburgess/.environs",
+    "venv": "hyperstructor",
+
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+
+
+}
